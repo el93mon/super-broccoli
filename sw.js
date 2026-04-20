@@ -1,5 +1,5 @@
 const CACHE_NAME = "ical-sync-v1";
-const ASSETS = ["./index-2.html", "./manifest.json"];
+const ASSETS = ["./index-3.html", "./manifest.json"];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE_NAME).then(c => c.addAll(ASSETS)));
